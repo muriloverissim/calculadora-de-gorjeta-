@@ -145,6 +145,32 @@ display: none;
 .resultados p strong {
     color: #FFFFFF;
     font-size: 1rem;
+}
+
+.resultados div > strong {
+    color: var(--light-green);
+    font-size: 2rem;
+}
+
+.resultados .gorjeta-total {
+    margin-bottom: 1.25rem;
+}
+
+.resultados .total {
+    margin-bottom: 2rem;
+
+}
+
+.resultados button {
+    width: 100%;
+    background: var(--light-green);
+    border: none;
+    border-radius: 0.3125;
+    color: var(--green-800);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding-block: 0.5rem;
 
 
 }
